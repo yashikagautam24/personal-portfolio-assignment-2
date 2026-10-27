@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+
+header {
+    background-color: #FF69B4;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #FF69B4;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 25px 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+h2 {
+    color: #FF69B4;
+    margin-bottom: 18px;
+}
+
+/* About */
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+}
+
+#about p {
+    width: 650px;
+    margin: 10px auto;
+}
+
+#about ul {
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+/* Skills table */
+table {
+    width: 80%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #FF69B4;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #FF69B4;
+    padding: 10px;
+}
+
+/* Projects */
+#projects ol {
+    list-style: none;
+    max-width: 500px;
+    margin: auto;
+}
+
+#projects li {
+    background-color: white;
+    padding: 15px;
+    margin-top: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#projects p {
+    margin: 5px 0 15px;
+}
+
+/* Contact form */
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #FF69B4;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+
+footer {
+    background-color: #FF69B4;
+    color: white;
+    padding: 15px;
+}
